@@ -1,1 +1,9 @@
 # microservice
+5 micro-services , auth service, gateway, converter, rabbitmq, notification.
+1.	Auth Service: Handles user authentication and generates JWT tokens for secure API access.
+2.	Gateway: Acts as the entry point for all client requests, routing them to appropriate services and managing data storage/retrieval in MongoDB.
+3.	Converter Service: Processes video-to-MP3 conversion by retrieving videos from MongoDB, performing the conversion, and storing the resulting MP3s back in MongoDB.
+4.	RabbitMQ: Manages message queuing to coordinate workflows between services like conversion and notification.
+5.	Notification Service: Sends email notifications to clients when the MP3 conversion is complete and ready for download.
+
+when a user uploads a video to be converted to MP3, that request will first hit our gateway. Our gateway will then store the video in mongo DB and then put a message on this queue here which is our rabbitmq queue. Downstream services know that there is video to be processed in mongo DB. The video to MP3 converter service will consume messages from the queue. It will then get id of the video from the message .and it will pull the video from mongo DB, convert the video to MP3, then store the MP3 on mongodb . then put a new message on the queue to be consumed by the notification service that says that the conversion job is done. The notification service consumes those messages from the queue and sends an e-mail notification to the client informing the client that the MP3 for the video that he or she uploaded is ready for download. The client Then use a unique ID acquired from the notification plus his or her JWT to make requests to the API gateway to download MP3. And the API gateway will pull the MP3 from mongo DB and serve it to the client. And that is the overall conversion flow. 
