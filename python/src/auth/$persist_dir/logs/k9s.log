@@ -1,0 +1,206 @@
+[90m8:25AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:25AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:25AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:29AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:29AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:29AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:29AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:29AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:29AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:29AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m8:29AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:29AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m8:29AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:29AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:29AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:29AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:30AM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m8:30AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:30AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:31AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:31AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:31AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:31AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m8:31AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:31AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:31AM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m8:31AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:31AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:40AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:40AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:40AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:40AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:40AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:40AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:40AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m8:40AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:40AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m8:40AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:40AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:40AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:40AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:40AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m8:40AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m8:41AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m8:41AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:41AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:41AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:41AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:41AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:41AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m8:41AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:41AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:41AM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m8:41AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:41AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:42AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:42AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:42AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:42AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:42AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/api\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:42AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m8:42AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:42AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m8:42AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m8:42AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m8:42AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m8:42AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:54396/version?timeout=15s\": dial tcp 127.0.0.1:54396: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m8:43AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:43AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:49AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:49AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m8:49AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m10:59AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m10:59AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m10:59AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:00AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:00AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m11:00AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:00AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-6dfr6 (auth)"[0m[0m
+[90m11:01AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:01AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m11:01AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:10AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:10AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m11:10AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:27PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:27PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m1:27PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:32PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:32PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m1:32PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-5bjgn (auth)"[0m[0m
+[90m1:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-w47tn (auth)"[0m[0m
+[90m1:33PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:33PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m1:33PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:33PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-5bjgn (auth)"[0m[0m
+[90m1:33PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-w47tn (auth)"[0m[0m
+[90m4:10PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m4:10PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m4:10PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m4:10PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-jmgj4 (auth)"[0m[0m
+[90m4:10PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m4:10PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m4:10PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m4:11PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m4:11PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m4:11PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:44PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:44PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:44PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
