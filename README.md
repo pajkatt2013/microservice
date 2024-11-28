@@ -21,8 +21,11 @@
 
 ## Part 3: Steps to deploy
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 55a08e3 (initial commit)
 See the original tutorial that I refered [here](https://youtu.be/hmkF77F9TLw?si=zbVzVs1qiEza6g4v).

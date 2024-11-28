@@ -1,0 +1,99 @@
+[90m7:25PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:25PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:25PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:25PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-4bdk6 (converter)"[0m[0m
+[90m7:33PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:33PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:33PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:34PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:34PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:34PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: image can't be pulled for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: image can't be pulled for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: image can't be pulled for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: image can't be pulled for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: image can't be pulled for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: image can't be pulled for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: image can't be pulled for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:34PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:35PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:35PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:35PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:35PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:35PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2gspr\" is waiting to start: trying and failing to pull image for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:35PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-2gspr (converter)"[0m[0m
+[90m7:35PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-x8sp8 (converter)"[0m[0m
+[90m7:36PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-rzvmp (converter)"[0m[0m
+[90m7:36PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-rzvmp (converter)"[0m[0m
+[90m7:38PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-rzvmp (converter)"[0m[0m
+[90m7:40PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:40PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:40PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:43PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:43PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:43PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:44PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-dl2v8 (converter)"[0m[0m
+[90m7:48PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:48PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:48PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:54PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:54PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:54PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:57PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:57PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:57PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m10:13AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m10:13AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m10:13AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m10:15AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m10:15AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m10:15AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:38PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:38PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m3:38PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:45PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:45PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m3:45PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:45PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-5bjgn (auth)"[0m[0m
+[90m3:46PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-frkns (gateway)"[0m[0m
+[90m3:46PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-h857t (gateway)"[0m[0m
+[90m3:46PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:46PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m3:46PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m5:21PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m5:21PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m5:21PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m10:16PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m10:16PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m10:16PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m10:17PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-6rmg7 (auth)"[0m[0m
+[90m10:17PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-c5mst (auth)"[0m[0m
+[90m10:19PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-c5mst (auth)"[0m[0m
+[90m10:19PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-6rmg7 (auth)"[0m[0m
+[90m10:19PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-6rmg7 (auth)"[0m[0m
+[90m10:19PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-c5mst (auth)"[0m[0m
+[90m10:20PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mkl52 (gateway)"[0m[0m
+[90m10:20PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-xgfhx (gateway)"[0m[0m
+[90m10:22PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-c5mst (auth)"[0m[0m
+[90m10:22PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-6rmg7 (auth)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mkl52 (gateway)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-xgfhx (gateway)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mkl52 (gateway)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-c5mst (auth)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mkl52 (gateway)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-xgfhx (gateway)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-c5mst (auth)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-6rmg7 (auth)"[0m[0m
+[90m10:23PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-xgfhx (gateway)"[0m[0m

@@ -1,0 +1,25 @@
+[90m5:13PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m5:13PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m5:13PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:12PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:12PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:12PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-2l74d\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:13PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:21PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:21PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:21PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:21PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
+[90m7:21PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:21PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:21PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:21PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-2l74d (converter)"[0m[0m
