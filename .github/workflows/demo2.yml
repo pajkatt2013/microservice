@@ -8,6 +8,12 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Configure Git to handle large repositories
+        run: |
+          git config --global http.postBuffer 524288000
+          git config --global http.maxRequests 20
+          git config --global core.compression 0
+          git config --global http.version HTTP/1.1
       # - name: Clean working directory
         # run: |
         #     Remove-Item -Recurse -Force "${{ github.workspace }}"
