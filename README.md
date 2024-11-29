@@ -23,8 +23,9 @@
 
 1. Configuring github actions
    1. Add a self-hosted runner and run it. The specific steps differ depending on the os on your local machine, mine window 10,x64. After you added and run, it should looks like this:![runner_added_screenshot](./resources/pics/runner_added_screenshot.png)
+      
       You can refer to github official docs [here](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
-   2. Add a workflow yaml file to your git repository, must be in this specific path:"repo_name/.github/workflows/workflow_name.yml". The workflow yaml file configures the runner, trigger event of the workflow, and specfics about the whole process. [This is a quick start of writing a workflow](https://docs.github.com/en/actions/writing-workflows/quickstart).
+   3. Add a workflow yaml file to your git repository, must be in this specific path:"repo_name/.github/workflows/workflow_name.yml". The workflow yaml file configures the runner, trigger event of the workflow, and specfics about the whole process. [This is a quick start of writing a workflow](https://docs.github.com/en/actions/writing-workflows/quickstart).
 2. Automating the deployment
    1. We can automate the whole deployment process by just push to the repository(it can be configured in the workflow yaml file).
    2. See the status of the workflow on terminal of the self-hosted runner or github UI(repository-Actions)
