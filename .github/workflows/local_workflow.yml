@@ -1,12 +1,26 @@
 name: deploy a k8s cluster
 run-name: ${{ github.actor }} is deploying k8s cluster
+# on:
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - 'python/**'
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'python/**'
-
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Choose environment' # Optional description
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+      run_id:
+        description: 'Optional run ID' # Optional description
+        required: false
+        default: '1'
 jobs:
   deploy_a_k8s_cluster:
     runs-on: self-hosted
