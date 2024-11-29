@@ -8,7 +8,7 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Configure Git to handle large repositories
+      - name: Configure Git
         run: |
           git config --global http.postBuffer 524288000
           git config --global http.maxRequests 20
@@ -19,6 +19,8 @@ jobs:
         #     Remove-Item -Recurse -Force "${{ github.workspace }}"
       - name: Check out repository code
         uses: actions/checkout@v4
+      - name: List repository files
+        run: ls ${{ github.workspace }}
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: List files in the repository
