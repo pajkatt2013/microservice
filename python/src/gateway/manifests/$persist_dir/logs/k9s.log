@@ -1,0 +1,171 @@
+[90m6:01PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m6:01PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m6:01PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m6:16PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m6:16PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m6:16PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:33AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:35AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:35AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:35AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:35AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:42AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:42AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:42AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:42AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:45AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:45AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:45AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:45AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:45AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:45AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:45AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:46AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:47AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:47AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:47AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:47AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:48AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:48AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:48AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:50AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:50AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:50AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:50AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:56AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:56AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:56AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:56AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m9:58AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:58AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:58AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:58AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m10:00AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m10:00AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m10:00AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:15AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:15AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/api\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/version?timeout=15s\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:15AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/api\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m11:15AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m11:15AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/version?timeout=15s\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m11:15AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m11:15AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m11:15AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/version?timeout=15s\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/version?timeout=15s\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/version?timeout=15s\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/version?timeout=15s\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m11:15AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:64339/version?timeout=15s\": dial tcp 127.0.0.1:64339: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m11:15AM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m11:15AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m11:15AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m11:19AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:19AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m11:19AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:19AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m11:20AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:20AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m11:20AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:20AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m11:20AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:20AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m11:20AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:20AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-9s88n (gateway)"[0m[0m
+[90m11:22AM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-9s88n"[0m
+[90m11:22AM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-wqvwm"[0m
+[90m11:22AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-bdbvp (gateway)"[0m[0m
+[90m11:22AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-w5sn8 (gateway)"[0m[0m
+[90m2:34PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m2:34PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m2:34PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m2:34PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-bdbvp (gateway)"[0m[0m
+[90m2:38PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m2:38PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m2:38PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m2:38PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-bdbvp (gateway)"[0m[0m
+[90m2:40PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-vzn2h (auth)"[0m[0m
+[90m2:52PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m2:52PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m2:52PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m2:52PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-bdbvp (gateway)"[0m[0m
+[90m2:52PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-bdbvp"[0m
+[90m2:52PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-w5sn8"[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"gateway\" in pod \"gateway-7bdf6c4fdd-pc9th\" is waiting to start: trying and failing to pull image for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m2:52PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-86tcq (gateway)"[0m[0m
+[90m2:57PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-86tcq (gateway)"[0m[0m
+[90m2:57PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-pc9th (gateway)"[0m[0m
+[90m3:04PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:04PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/api\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/version?timeout=15s\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:04PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/api\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it.\ncannot connect to context: minikube\nk8s connection failed for context: minikube"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m3:04PM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m3:04PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/version?timeout=15s\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m3:04PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m3:04PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/version?timeout=15s\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/version?timeout=15s\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (2/5)"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/version?timeout=15s\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (3/5)"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/version?timeout=15s\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (4/5)"[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://127.0.0.1:60241/version?timeout=15s\": dial tcp 127.0.0.1:60241: connectex: No connection could be made because the target machine actively refused it."[0m[0m
+[90m3:04PM[0m [31mERR[0m [1mConn check failed (5/5). Bailing out![0m
+[90m3:04PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m3:04PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m3:05PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:05PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m3:05PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:05PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:05PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m3:05PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:06PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-86tcq (gateway)"[0m[0m
+[90m7:44PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:44PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:44PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:44PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-86tcq (gateway)"[0m[0m
+[90m7:46PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m7:46PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m7:46PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m7:46PM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"exit status 1"[0m[0m
+[90m7:46PM[0m [31mERR[0m [1mExec failed "C:\\Program Files\\Docker\\Docker\\resources\\bin\\kubectl.exe attach --context minikube -it -n default auth-5658cd5b57-slzw9 -c auth": exit status 1
+[0m [36merror=[0m[31m[1m"exit status 1\n"[0m[0m
+[90m7:46PM[0m [31mERR[0m [1mAttach exec failed: exit status 1
+[0m [36merror=[0m[31m[1m"exit status 1\n"[0m[0m
+[90m8:50AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:50AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m8:50AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:51AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-hf8td (gateway)"[0m[0m
