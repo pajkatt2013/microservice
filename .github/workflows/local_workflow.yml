@@ -8,7 +8,7 @@ on:
       - 'python/**'
 
 jobs:
-  Explore-GitHub-Actions:
+  deploy a k8s cluster:
     runs-on: self-hosted
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
