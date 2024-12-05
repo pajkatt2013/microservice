@@ -1,12 +1,13 @@
 k9s:
   cluster: minikube
   namespace:
-    active: default
+    active: all
     lockFavorites: false
     favorites:
+    - all
     - default
   view:
-    active: po
+    active: pod
   featureGates:
     nodeShell: false
   portForwardAddress: localhost

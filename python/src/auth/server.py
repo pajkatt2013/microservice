@@ -14,13 +14,13 @@ server.config["MYSQL_PORT"] = int(os.environ.get("MYSQL_PORT"))
 
 @server.route("/login", methods = ["POST"])
 def login():
-    auth = request.authorization
+    auth = request.authentication
     if not auth:
         return "missing credentials", 401
     
     #check db for username and password
     cur = mysql.connection.cursor()
-    res = cur.execute("select email,password from user where email = %s",(auth.username,))
+    res = cur.execute(f"select email,password from user where email = (auth.username)")
     if res > 0:
         user_row = cur.fetchone()
         email = user_row[0]
@@ -40,7 +40,7 @@ def validate():
     encoded_jwt = request.headers["Authorization"]
     if not encoded_jwt:
         
-        logging.warning("Authorization header is missing.")
+        logging.warning("authentication header is missing.")
         return "missing credentials", 401
 
     encoded_jwt = encoded_jwt.split(" ")[1]

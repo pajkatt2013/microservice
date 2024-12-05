@@ -21,11 +21,60 @@
 4. **RabbitMQ**: Manages message queuing to coordinate workflows between services like conversion and notification.
 5. **Notification**: Sends email notifications to clients when the MP3 conversion is complete and ready for download.
 
-## Part 3: Steps to deploy
+## Part 3: Steps to deploy(on local computer)
+
+> If you're not interested in local deployment, skip this part.
+
+1. Pre-intallations:
+   Install these tools in your local computer, you can easily intall them by googling:
+   1. Docker
+   2. kubectl
+   3. minikube
+   4. mysql
+   5. python(see requirements.txt)
+   6. k9s
+2. Clone this github repo to your local environment
+3. We will deploy this on teminal(mine is powershell):
+   1. Activate python virtual environment:
+      ```ps
+      myvenv/Scripts/activate
+      ```
+   2. start mysql service(window 10):
+      ```ps
+      net start MySQL80
+      ```
+   3. Initiate mysql database(creating auth database and user table), this mysql database is for authentication purposes:
+      ```ps
+      Get-Content python/src/auth/init.sql | mysql -uroot -p<your_password>
+      ```
+      You can verify it by starting a mysql session and run commands like "show databases;":
+      ```ps
+      mysql -uroot -p<your_password>
+      ```
+   4. Deploy auth service:
+      Before this step, create dockerhub repositories for auth service, for example:<your_dockerhub_username>/auth,
+      then build and push
+      ```ps
+      cd ./python/src/auth
+      docker build . -t <your_dockerhub_username>/auth:latest
+      docker push <your_dockerhub_username>/auth:latest
+      ```
+      if error happens in build step, try pull the image first:
+      ```ps
+      docker pull python:3.10-slim-bullseye
+      ```
+      if error happens in push step, try login docker first:
+      ```ps
+      docker login
+      ```
+
+## Part 4: Steps to deploy(on AWS)
 
 1. Configuring github actions
 
-   1. Add a self-hosted runner and run it. The specific steps differ depending on the os on your local machine, mine window 10,x64. After you added and run, it should looks like this:![runner_added_screenshot](./resources/pics/runner_added_screenshot.png)
+   1. Add a self-hosted runner and run it. The specific steps differ depending on the os on your local machine, mine window 10,x64. After you added and run, it should looks like this:
+
+      ![runner_added_screenshot](./resources/pics/runner_added_screenshot.png)
 
       You can refer to github official docs [here](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
 
