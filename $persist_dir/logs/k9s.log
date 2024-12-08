@@ -422,3 +422,7 @@
 [90m5:57PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-v2ptn"[0m
 [90m9:07PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-l9whb"[0m
 [90m9:07PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-vfstn"[0m
+[90m9:14PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-9ltt9 (gateway)"[0m[0m
+[90m9:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-csjwg (notification)"[0m[0m
+[90m9:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-lhmz4 (notification)"[0m[0m
+[90m9:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-mrkkl (notification)"[0m[0m

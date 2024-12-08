@@ -48,8 +48,8 @@
       build the docker image and push it to dockerhub:
 
       ```ps
-      docker build ./python/src/auth -t <your_dockerhub_username>/auth:latest
-      docker push <your_dockerhub_username>/auth:latest
+      docker build ./python/src/auth -t <example_dockerhub_username>/auth:latest
+      docker push <example_dockerhub_username>/auth:latest
       ```
 
       if error happens in build step, try pull the image first:
@@ -119,8 +119,8 @@
       build the docker image and push it to dockerhub:
 
       ```ps
-      docker build ./python/src/converter -t <your_dockerhub_username>/converter:latest
-      docker push <your_dockerhub_username>/converter:latest
+      docker build ./python/src/converter -t <example_dockerhub_username>/converter:latest
+      docker push <example_dockerhub_username>/converter:latest
       ```
 
       deploy the k8s service:
@@ -133,8 +133,8 @@
       build the docker image and push it to dockerhub:
 
       ```ps
-      docker build ./python/src/notification -t <your_dockerhub_username>/notification:latest
-      docker push <your_dockerhub_username>/notification:latest
+      docker build ./python/src/notification -t <example_dockerhub_username>/notification:latest
+      docker push <example_dockerhub_username>/notification:latest
       ```
 
       deploy the k8s service:
@@ -146,8 +146,8 @@
    8. Deploy gateway service:
       build the docker image and push it to dockerhub:
       ```ps
-      docker build ./python/src/gateway -t <your_dockerhub_username>/gateway:latest
-      docker push <your_dockerhub_username>/gateway:latest
+      docker build ./python/src/gateway -t <example_dockerhub_username>/gateway:latest
+      docker push <example_dockerhub_username>/gateway:latest
       ```
       configure host file:
       ```ps
