@@ -30,42 +30,137 @@
    1. Docker
    2. kubectl
    3. minikube
-   4. mysql
-   5. python(see requirements.txt)
-   6. k9s
+   4. python(see requirements.txt)
+   5. k9s
 2. Clone this github repo to your local environment
 3. We will deploy this on teminal(mine is powershell):
+
    1. Activate python virtual environment:
       ```ps
       myvenv/Scripts/activate
       ```
-   2. start mysql service(window 10):
+   2. Deploy mysql statefulSet:
       ```ps
-      net start MySQL80
+      kubectl apply -f ./python/src/mysql/manifests
       ```
-   3. Initiate mysql database(creating auth database and user table), this mysql database is for authentication purposes:
+   3. Deploy auth service:
+
+      build the docker image and push it to dockerhub:
+
       ```ps
-      Get-Content python/src/auth/init.sql | mysql -uroot -p<your_password>
-      ```
-      You can verify it by starting a mysql session and run commands like "show databases;":
-      ```ps
-      mysql -uroot -p<your_password>
-      ```
-   4. Deploy auth service:
-      Before this step, create dockerhub repositories for auth service, for example:<your_dockerhub_username>/auth,
-      then build and push
-      ```ps
-      cd ./python/src/auth
-      docker build . -t <your_dockerhub_username>/auth:latest
+      docker build ./python/src/auth -t <your_dockerhub_username>/auth:latest
       docker push <your_dockerhub_username>/auth:latest
       ```
+
       if error happens in build step, try pull the image first:
+
       ```ps
       docker pull python:3.10-slim-bullseye
       ```
+
       if error happens in push step, try login docker first:
+
       ```ps
       docker login
+      ```
+
+      deploy the k8s service:
+
+      ```ps
+      kubectl apply -f ./python/src/auth/manifests
+      ```
+
+   4. Deploy mongodb statefulSet:
+      deploy the k8s service:
+
+      ```ps
+      kubectl apply -f ./python/src/mongodb/manifests
+      ```
+
+      **initiate the mongodb statefulset:**
+
+      1. enter mongodb shell
+
+      ```ps
+      kubectl exec -it mongodb-0 -- mongo
+      ```
+
+      2. run the rs.initiate() command with a configuration that lists all your pods:
+
+      ```
+      rs.initiate({
+      _id: "rs0",
+      members: [
+         { _id: 0, host: "mongodb-0.mongodb.default.svc.cluster.local:27017" },
+         { _id: 1, host: "mongodb-1.mongodb.default.svc.cluster.local:27017" },
+         { _id: 2, host: "mongodb-2.mongodb.default.svc.cluster.local:27017" }
+      ]
+      })
+      ```
+
+      3. run "rs.status()" to verify the initiation.
+
+   5. Deploy rabbit-mq service/statefulSet:
+      configure host file:
+
+      ```ps
+      Add-Content -Path "C:\Windows\System32\drivers\etc\hosts" -Value "127.0.0.1 rabbitmq-manager.com"
+      ```
+
+      deploy the k8s service:
+
+      ```ps
+      kubectl apply -f ./python/src/rabbit/manifests
+      ```
+
+      add queues in rabbitmq gui: enter "rabbitmq-manager.com" in browser, input "guest" in both "username" and "password", then "Queues and Streams" - "Add a new queue" - "Type -- Classic" - "Name -- video" - "Add queue". add another queue named "mp3" the same way.
+
+   6. Deploy consumer service:
+      build the docker image and push it to dockerhub:
+
+      ```ps
+      docker build ./python/src/converter -t <your_dockerhub_username>/converter:latest
+      docker push <your_dockerhub_username>/converter:latest
+      ```
+
+      deploy the k8s service:
+
+      ```ps
+      kubectl apply -f ./python/src/converter/manifests
+      ```
+
+   7. Deploy notification service:
+      build the docker image and push it to dockerhub:
+
+      ```ps
+      docker build ./python/src/notification -t <your_dockerhub_username>/notification:latest
+      docker push <your_dockerhub_username>/notification:latest
+      ```
+
+      deploy the k8s service:
+
+      ```ps
+      kubectl apply -f ./python/src/notification/manifests
+      ```
+
+   8. Deploy gateway service:
+      build the docker image and push it to dockerhub:
+      ```ps
+      docker build ./python/src/gateway -t <your_dockerhub_username>/gateway:latest
+      docker push <your_dockerhub_username>/gateway:latest
+      ```
+      configure host file:
+      ```ps
+      Add-Content -Path "C:\Windows\System32\drivers\etc\hosts" -Value "127.0.0.1 mp3converter.com"
+      ```
+      configure minikube addons and start minikube tunnel, this allows user to interact with gateway endpoint and rabbit-mq graphical interface from outside the k8s cluster(the Internet), the terminal process should stay alive to keep the tunnel accessible:
+      ```ps
+      minikube addons enable ingress
+      minikube tunnel
+      ```
+      open a new terminal and deploy the k8s service(may need to deploy rabbitmq first):
+      ```ps
+      kubectl apply -f ./python/src/gateway/manifests
       ```
 
 ## Part 4: Steps to deploy(on AWS)

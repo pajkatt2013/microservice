@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-init-scripts
+  namespace: default
+data:
+  init.sql: |
+    CREATE USER if not exists 'auth_user'@'%' IDENTIFIED BY 'Auth123';
+    CREATE DATABASE if not exists auth;
+    GRANT ALL PRIVILEGES ON auth.* TO 'auth_user'@'%';   
+    USE auth;
+    CREATE TABLE if not exists user(
+      id int not null auto_increment primary key,
+      email varchar(255) not null unique,
+      password varchar(255) not null
+    );
+    insert IGNORE into user (email, password) values ('pajkatt2013@163.com', 'Admin123');
+    FLUSH PRIVILEGES;

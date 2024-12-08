@@ -8,33 +8,31 @@ spec:
     matchLabels:
       app: rabbitmq
   template:
-      metadata:
-        labels: 
-          app: rabbitmq
-      
-      spec:
-        containers:
-          - name: rabbitmq
-            image: rabbitmq:3-management
-            ports: 
-              - name: http 
-                protocol: TCP
-                containerPort: 15672
-              - name: amqp
-                protocol: TCP
-                containerPort: 5672
-            envFrom:
-              - configMapRef:
-                  name: rabbitmq-configmap
-              - secretRef:
-                  name: rabbitmq-secret
-            volumeMounts:
-              - mountPath: "var/lib/rabbitmq"
-                name: rabbitmq-volume
+    metadata:
+      labels:
+        app: rabbitmq
 
-        volumes: 
-          - name: rabbitmq-volume
-            persistentVolumeClaim:
-              claimName: rabbitmq-pvc
-            
-              
+    spec:
+      containers:
+        - name: rabbitmq
+          image: rabbitmq:3-management
+          ports:
+            - name: http
+              protocol: TCP
+              containerPort: 15672
+            - name: amqp
+              protocol: TCP
+              containerPort: 5672
+          envFrom:
+            - configMapRef:
+                name: rabbitmq-configmap
+            - secretRef:
+                name: rabbitmq-secret
+          volumeMounts:
+            - mountPath: "var/lib/rabbitmq"
+              name: rabbitmq-volume
+
+      volumes:
+        - name: rabbitmq-volume
+          persistentVolumeClaim:
+            claimName: rabbitmq-pvc

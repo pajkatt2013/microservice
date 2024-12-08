@@ -58,3 +58,367 @@
 [0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
 [90m5:42PM[0m [31mERR[0m [1mShell exec failed: exit status 127
 [0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m9:05AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-8jc9t (auth)"[0m[0m
+[90m9:05AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-7ctbw (gateway)"[0m[0m
+[90m10:24AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/rabbitmq-0 (rabbitmq)"[0m[0m
+[90m10:25AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-7ctbw (gateway)"[0m[0m
+[90m8:19PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:19PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m8:19PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:42AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:42AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m8:43AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"converter\" in pod \"converter-5c4bb56cbf-8zncb\" is waiting to start: ContainerCreating for default/converter-5c4bb56cbf-8zncb (converter)"[0m[0m
+[90m9:08AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7ctbw (gateway)"[0m[0m
+[90m9:08AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-z4qwh (gateway)"[0m[0m
+[90m9:08AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-8jc9t (auth)"[0m[0m
+[90m9:08AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-v5n7r (auth)"[0m[0m
+[90m9:10AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7ctbw (gateway)"[0m[0m
+[90m9:10AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-8jc9t (auth)"[0m[0m
+[90m9:12AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-v5n7r (auth)"[0m[0m
+[90m9:16AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-g9tjn (auth)"[0m[0m
+[90m9:21AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/auth-5658cd5b57-6h8pd (auth)"[0m[0m
+[90m9:21AM[0m [31mERR[0m [1mWatcher failed for containers -- pods "auth-5658cd5b57-6h8pd" not found[0m [36merror=[0m[31m[1m"pods \"auth-5658cd5b57-6h8pd\" not found"[0m[0m
+[90m9:23AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-42j5f (auth)"[0m[0m
+[90m9:39AM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"exit status 127"[0m[0m
+[90m9:39AM[0m [31mERR[0m [1mExec failed "C:\\Program Files\\Docker\\Docker\\resources\\bin\\kubectl.exe exec --context minikube -it -n default auth-5658cd5b57-42j5f -c auth -- sh -c command -v bash >/dev/null && exec bash || exec sh": exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m9:39AM[0m [31mERR[0m [1mShell exec failed: exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m9:40AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-8gjjg (auth)"[0m[0m
+[90m9:43AM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"exit status 127"[0m[0m
+[90m9:43AM[0m [31mERR[0m [1mExec failed "C:\\Program Files\\Docker\\Docker\\resources\\bin\\kubectl.exe exec --context minikube -it -n default auth-5658cd5b57-8gjjg -c auth -- sh -c command -v bash >/dev/null && exec bash || exec sh": exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m9:43AM[0m [31mERR[0m [1mShell exec failed: exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m9:52AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m9:52AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m9:52AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m9:53AM[0m [33mWRN[0m [1mreconciler exited[0m [36merror=[0m[31m[1m"pods \"auth-5658cd5b57-8gjjg\" not found"[0m[0m
+[90m9:53AM[0m [31mERR[0m [1mpods "auth-5658cd5b57-8gjjg" not found[0m
+[90m9:55AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/auth-5658cd5b57-snpm4 (auth)"[0m[0m
+[90m9:55AM[0m [31mERR[0m [1mWatcher failed for containers -- pods "auth-5658cd5b57-snpm4" not found[0m [36merror=[0m[31m[1m"pods \"auth-5658cd5b57-snpm4\" not found"[0m[0m
+[90m9:56AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-9x74p (auth)"[0m[0m
+[90m10:19AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-ljxbn (auth)"[0m[0m
+[90m10:19AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-tx9nb (auth)"[0m[0m
+[90m10:19AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7ctbw (gateway)"[0m[0m
+[90m10:21AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-tx9nb (auth)"[0m[0m
+[90m10:23AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-ljxbn (auth)"[0m[0m
+[90m10:23AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7ctbw (gateway)"[0m[0m
+[90m10:26AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-2tb6t (converter)"[0m[0m
+[90m10:26AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-4tgdb (converter)"[0m[0m
+[90m10:26AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-jllhc (converter)"[0m[0m
+[90m10:26AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-wcqhk (converter)"[0m[0m
+[90m10:35AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-4dp8c (gateway)"[0m[0m
+[90m10:36AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mbf9c (gateway)"[0m[0m
+[90m10:43AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-4dp8c (gateway)"[0m[0m
+[90m10:48AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mbf9c (gateway)"[0m[0m
+[90m10:57AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mbf9c (gateway)"[0m[0m
+[90m11:06AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mysql-deployment-756fd85d69-9f52s (mysql)"[0m[0m
+[90m11:07AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mysql-deployment-756fd85d69-9f52s (mysql)"[0m[0m
+[90m11:49AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"check-storage\" in pod \"mysql-0\" is waiting to start: PodInitializing for default/mysql-0 (check-storage)"[0m[0m
+[90m11:49AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"check-storage\" in pod \"mysql-0\" is waiting to start: PodInitializing for default/mysql-0 (check-storage)"[0m[0m
+[90m11:49AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"check-storage\" in pod \"mysql-0\" is waiting to start: PodInitializing for default/mysql-0 (check-storage)"[0m[0m
+[90m11:49AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/mysql-0 (check-storage)"[0m[0m
+[90m11:49AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:49AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:49AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/mysql-0 (check-storage)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:50AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m11:52AM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/mysql-0 (check-storage)"[0m[0m
+[90m11:52AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mysql\" in pod \"mysql-0\" is waiting to start: CreateContainerConfigError for default/mysql-0 (mysql)"[0m[0m
+[90m11:52AM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m11:53AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m11:54AM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"exit status 127"[0m[0m
+[90m11:54AM[0m [31mERR[0m [1mExec failed "C:\\Program Files\\Docker\\Docker\\resources\\bin\\kubectl.exe exec --context minikube -it -n default mysql-0 -c mysql -- sh -c command -v bash >/dev/null && exec bash || exec sh": exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m11:54AM[0m [31mERR[0m [1mShell exec failed: exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m11:54AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m12:02PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m12:02PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m12:02PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m12:03PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m12:03PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m12:03PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m12:08PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m12:08PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m12:08PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m12:08PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m12:11PM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"exit status 137"[0m[0m
+[90m12:11PM[0m [31mERR[0m [1mExec failed "C:\\Program Files\\Docker\\Docker\\resources\\bin\\kubectl.exe exec --context minikube -it -n default mysql-0 -c mysql -- sh -c command -v bash >/dev/null && exec bash || exec sh": exit status 137
+[0m [36merror=[0m[31m[1m"exit status 137\n"[0m[0m
+[90m12:11PM[0m [31mERR[0m [1mShell exec failed: exit status 137
+[0m [36merror=[0m[31m[1m"exit status 137\n"[0m[0m
+[90m12:12PM[0m [33mWRN[0m [1mreconciler exited[0m [36merror=[0m[31m[1m"context canceled"[0m[0m
+[90m12:14PM[0m [33mWRN[0m [1mreconciler exited[0m [36merror=[0m[31m[1m"pods \"mysql-0\" not found"[0m[0m
+[90m12:14PM[0m [31mERR[0m [1mpods "mysql-0" not found[0m
+[90m12:14PM[0m [33mWRN[0m [1mreconciler exited[0m [36merror=[0m[31m[1m"pods \"mysql-0\" not found"[0m[0m
+[90m12:14PM[0m [31mERR[0m [1mpods "mysql-0" not found[0m
+[90m12:15PM[0m [33mWRN[0m [1mreconciler exited[0m [36merror=[0m[31m[1m"pods \"mysql-0\" not found"[0m[0m
+[90m12:15PM[0m [31mERR[0m [1mpods "mysql-0" not found[0m
+[90m12:20PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m12:20PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m12:20PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-4dp8c (gateway)"[0m[0m
+[90m3:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mbf9c (gateway)"[0m[0m
+[90m3:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-zntt5 (auth)"[0m[0m
+[90m3:38PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-nwbc4 (auth)"[0m[0m
+[90m3:41PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mysql-0 (mysql)"[0m[0m
+[90m3:42PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:42PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m3:42PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:42PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-4dp8c (gateway)"[0m[0m
+[90m3:42PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mbf9c (gateway)"[0m[0m
+[90m3:43PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-nwbc4 (auth)"[0m[0m
+[90m3:43PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-zntt5 (auth)"[0m[0m
+[90m3:50PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m3:50PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m3:50PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m3:51PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-nwbc4 (auth)"[0m[0m
+[90m3:51PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-zntt5 (auth)"[0m[0m
+[90m3:51PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-nwbc4 (auth)"[0m[0m
+[90m3:51PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-4dp8c (gateway)"[0m[0m
+[90m3:51PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-mbf9c (gateway)"[0m[0m
+[90m3:51PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-nwbc4 (auth)"[0m[0m
+[90m3:51PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-nwbc4 (auth)"[0m[0m
+[90m3:52PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/auth-5658cd5b57-zntt5 (auth)"[0m[0m
+[90m4:07PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mongodb\" in pod \"mongodb-0\" is waiting to start: ContainerCreating for default/mongodb-0 (mongodb)"[0m[0m
+[90m4:07PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mongodb\" in pod \"mongodb-0\" is waiting to start: ContainerCreating for default/mongodb-0 (mongodb)"[0m[0m
+[90m4:07PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mongodb\" in pod \"mongodb-0\" is waiting to start: ContainerCreating for default/mongodb-0 (mongodb)"[0m[0m
+[90m4:07PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mongodb\" in pod \"mongodb-0\" is waiting to start: ContainerCreating for default/mongodb-0 (mongodb)"[0m[0m
+[90m4:07PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"mongodb\" in pod \"mongodb-0\" is waiting to start: ContainerCreating for default/mongodb-0 (mongodb)"[0m[0m
+[90m4:07PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/mongodb-0 (mongodb)"[0m[0m
+[90m4:16PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-cf9wb (gateway)"[0m[0m
+[90m4:16PM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"exit status 127"[0m[0m
+[90m4:16PM[0m [31mERR[0m [1mExec failed "C:\\Program Files\\Docker\\Docker\\resources\\bin\\kubectl.exe exec --context minikube -it -n default gateway-7bdf6c4fdd-cf9wb -c gateway -- sh -c command -v bash >/dev/null && exec bash || exec sh": exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m4:16PM[0m [31mERR[0m [1mShell exec failed: exit status 127
+[0m [36merror=[0m[31m[1m"exit status 127\n"[0m[0m
+[90m4:17PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-cf9wb (gateway)"[0m[0m
+[90m4:17PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-8f5sb (gateway)"[0m[0m
+[90m4:17PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-8f5sb (gateway)"[0m[0m
+[90m4:17PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-cf9wb (gateway)"[0m[0m
+[90m4:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-cf9wb (gateway)"[0m[0m
+[90m4:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-8f5sb (gateway)"[0m[0m
+[90m4:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-8f5sb (gateway)"[0m[0m
+[90m4:19PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m4:19PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m4:19PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m4:19PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-8f5sb (gateway)"[0m[0m
+[90m4:21PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-cf9wb (gateway)"[0m[0m
+[90m4:24PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/gateway-7bdf6c4fdd-cf9wb (gateway)"[0m[0m
+[90m4:26PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-nxp45 (gateway)"[0m[0m
+[90m4:32PM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"exit status 2"[0m[0m
+[90m4:32PM[0m [31mERR[0m [1mExec failed "C:\\Program Files\\Docker\\Docker\\resources\\bin\\kubectl.exe exec --context minikube -it -n default mongodb-0 -c mongodb -- sh -c command -v bash >/dev/null && exec bash || exec sh": exit status 2
+[0m [36merror=[0m[31m[1m"exit status 2\n"[0m[0m
+[90m4:32PM[0m [31mERR[0m [1mShell exec failed: exit status 2
+[0m [36merror=[0m[31m[1m"exit status 2\n"[0m[0m
+[90m4:40PM[0m [33mWRN[0m [1mreconciler exited[0m [36merror=[0m[31m[1m"context canceled"[0m[0m
+[90m4:42PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/mongodb-0 (mongodb)"[0m[0m
+[90m4:42PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/mongodb-0 (mongodb)"[0m[0m
+[90m5:24PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-nxp45 (gateway)"[0m[0m
+[90m5:25PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7h99k (gateway)"[0m[0m
+[90m5:29PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-55fbn (gateway)"[0m[0m
+[90m5:29PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mongodb-0 (mongodb)"[0m[0m
+[90m5:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7h99k (gateway)"[0m[0m
+[90m7:46PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/auth-5658cd5b57-nwbc4 (auth)"[0m[0m
+[90m8:02PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7h99k (gateway)"[0m[0m
+[90m8:03PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-7h99k (gateway)"[0m[0m
+[90m8:09PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-wcqhk (converter)"[0m[0m
+[90m8:09PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-jllhc (converter)"[0m[0m
+[90m8:09PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-dmw48 (gateway)"[0m[0m
+[90m8:10PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-2tb6t (converter)"[0m[0m
+[90m8:10PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-4tgdb (converter)"[0m[0m
+[90m8:10PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-4tgdb (converter)"[0m[0m
+[90m8:12PM[0m [33mWRN[0m [1mlog-reader EOF[0m [36merror=[0m[31m[1m"Stream closed EOF for default/converter-5c4bb56cbf-4tgdb (converter)"[0m[0m
+[90m8:31PM[0m [31mERR[0m [1mWatcher failed for containers -- pods "converter-5c4bb56cbf-4tgdb" not found[0m [36merror=[0m[31m[1m"pods \"converter-5c4bb56cbf-4tgdb\" not found"[0m[0m
+[90m8:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-bgrdh (converter)"[0m[0m
+[90m8:32PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-cd2xr (converter)"[0m[0m
+[90m8:34PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-kjr8b (converter)"[0m[0m
+[90m9:00AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/converter-5c4bb56cbf-kjr8b (converter)"[0m[0m
+[90m5:13PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-dmw48 (gateway)"[0m[0m
+[90m5:15PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-dmw48 (gateway)"[0m[0m
+[90m5:15PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed previous terminated container \"gateway\" in pod \"gateway-7bdf6c4fdd-zb6jt\" not found for default/gateway-7bdf6c4fdd-zb6jt (gateway)"[0m[0m
+[90m5:15PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed previous terminated container \"gateway\" in pod \"gateway-7bdf6c4fdd-zb6jt\" not found for default/gateway-7bdf6c4fdd-zb6jt (gateway)"[0m[0m
+[90m5:15PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed previous terminated container \"gateway\" in pod \"gateway-7bdf6c4fdd-zb6jt\" not found for default/gateway-7bdf6c4fdd-zb6jt (gateway)"[0m[0m
+[90m5:15PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed previous terminated container \"gateway\" in pod \"gateway-7bdf6c4fdd-zb6jt\" not found for default/gateway-7bdf6c4fdd-zb6jt (gateway)"[0m[0m
+[90m5:15PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/gateway-7bdf6c4fdd-zb6jt (gateway)"[0m[0m
+[90m5:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-zb6jt (gateway)"[0m[0m
+[90m5:18PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/gateway-7bdf6c4fdd-dmw48 (gateway)"[0m[0m
+[90m5:21PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-dmw48"[0m
+[90m5:21PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-zb6jt"[0m
+[90m5:24PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mongodb-0 (mongodb)"[0m[0m
+[90m6:08PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m6:08PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m6:08PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m10:08PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-cppjp"[0m
+[90m10:08PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-flhmx"[0m
+[90m10:58PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m10:58PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m10:58PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:36AM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/mongodb-0 (mongodb)"[0m[0m
+[90m11:37AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:37AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m11:37AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m12:05PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-7r8g4\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-7r8g4 (notification)"[0m[0m
+[90m12:05PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-7r8g4\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-7r8g4 (notification)"[0m[0m
+[90m12:05PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-7r8g4\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-7r8g4 (notification)"[0m[0m
+[90m12:05PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-7r8g4\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-7r8g4 (notification)"[0m[0m
+[90m12:05PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/notification-7bf489ddcb-7r8g4 (notification)"[0m[0m
+[90m12:05PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-46bwg (notification)"[0m[0m
+[90m12:05PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-46bwg (notification)"[0m[0m
+[90m12:10PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-46bwg (notification)"[0m[0m
+[90m12:11PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-9pq7t (notification)"[0m[0m
+[90m12:12PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-k85g6 (notification)"[0m[0m
+[90m12:12PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-9pq7t (notification)"[0m[0m
+[90m12:48PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-9ss9t"[0m
+[90m12:48PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-vzfxf"[0m
+[90m12:52PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-9pq7t (notification)"[0m[0m
+[90m12:53PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-68pq2 (notification)"[0m[0m
+[90m12:53PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-75pnn (notification)"[0m[0m
+[90m12:53PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-tqql7 (notification)"[0m[0m
+[90m12:53PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-wkdlm (notification)"[0m[0m
+[90m12:53PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-68pq2 (notification)"[0m[0m
+[90m12:58PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-rpvnx (notification)"[0m[0m
+[90m12:59PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-bb6cm (notification)"[0m[0m
+[90m12:59PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-n4lq6 (notification)"[0m[0m
+[90m12:59PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-p2wsb (notification)"[0m[0m
+[90m12:59PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-bb6cm (notification)"[0m[0m
+[90m12:59PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-n4lq6 (notification)"[0m[0m
+[90m12:59PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-p2wsb (notification)"[0m[0m
+[90m12:59PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-rpvnx (notification)"[0m[0m
+[90m1:00PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-9lwxg"[0m
+[90m1:00PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-74gvc"[0m
+[90m1:00PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-bb6cm (notification)"[0m[0m
+[90m1:00PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-n4lq6 (notification)"[0m[0m
+[90m1:01PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-rpvnx (notification)"[0m[0m
+[90m1:02PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-rpvnx (notification)"[0m[0m
+[90m1:02PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-p2wsb (notification)"[0m[0m
+[90m1:02PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-n4lq6 (notification)"[0m[0m
+[90m1:02PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-bb6cm (notification)"[0m[0m
+[90m1:03PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-bb6cm"[0m
+[90m1:03PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-bb6cm"[0m
+[90m1:03PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-rpvnx"[0m
+[90m1:03PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-pmfmq"[0m
+[90m1:03PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-n4lq6"[0m
+[90m1:03PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-p2wsb"[0m
+[90m1:03PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-7hblt (notification)"[0m[0m
+[90m1:03PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-g82cr (notification)"[0m[0m
+[90m1:04PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-jlzhw (notification)"[0m[0m
+[90m1:04PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-z5sbc (notification)"[0m[0m
+[90m1:06PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-24slk"[0m
+[90m1:06PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-cms69"[0m
+[90m1:06PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-7hblt (notification)"[0m[0m
+[90m1:06PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-g82cr (notification)"[0m[0m
+[90m1:06PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-z5sbc (notification)"[0m[0m
+[90m1:06PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-7hblt"[0m
+[90m1:06PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-g82cr"[0m
+[90m1:07PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-t24cs (notification)"[0m[0m
+[90m1:08PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-t24cs (notification)"[0m[0m
+[90m1:08PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-jlzhw (notification)"[0m[0m
+[90m1:08PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-h4rjz (notification)"[0m[0m
+[90m1:14PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-h4rjz (notification)"[0m[0m
+[90m1:14PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-jlzhw (notification)"[0m[0m
+[90m5:33PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-hnctn"[0m
+[90m5:33PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-n5dqn"[0m
+[90m5:34PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:34PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:34PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:35PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:36PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:37PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:38PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:38PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-4hpj9 (notification)"[0m[0m
+[90m5:38PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-448f6 (notification)"[0m[0m
+[90m5:38PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:38PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:38PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-4hpj9"[0m
+[90m5:38PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/notification-7bf489ddcb-448f6"[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: trying and failing to pull image for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: trying and failing to pull image for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: trying and failing to pull image for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed container \"notification\" in pod \"notification-7bf489ddcb-45bg5\" is waiting to start: image can't be pulled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:39PM[0m [31mERR[0m [1mlogs-stream[0m [36merror=[0m[31m[1m"stream logs failed client rate limiter Wait returned an error: context canceled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:40PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:41PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:41PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-qmcqz (notification)"[0m[0m
+[90m5:41PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:41PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:41PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:42PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:42PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-qmcqz (notification)"[0m[0m
+[90m5:42PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:42PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-qmcqz (notification)"[0m[0m
+[90m5:43PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-45bg5 (notification)"[0m[0m
+[90m5:43PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-frh6h (notification)"[0m[0m
+[90m5:43PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-q86rj (notification)"[0m[0m
+[90m5:43PM[0m [33mWRN[0m [1mlog-reader canceled[0m [36merror=[0m[31m[1m"Stream canceled context canceled for default/notification-7bf489ddcb-qmcqz (notification)"[0m[0m
+[90m5:57PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-56hs4"[0m
+[90m5:57PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-v2ptn"[0m
+[90m9:07PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-l9whb"[0m
+[90m9:07PM[0m [33mWRN[0m [1mDeleted (0) portforward for "default/gateway-7bdf6c4fdd-vfstn"[0m

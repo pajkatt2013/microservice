@@ -10,18 +10,26 @@ logging.basicConfig(level=logging.INFO)
 def main():
     logging.info("Logging is working in consumer!")
     try:
-        client = MongoClient("host.minikube.internal", 27017)
+        uri = (
+                "mongodb://mongodb-0.mongodb.default.svc.cluster.local:27017,"
+                "mongodb-1.mongodb.default.svc.cluster.local:27017,"
+                "mongodb-2.mongodb.default.svc.cluster.local:27017/"
+                "?replicaSet=rs0"
+            )
+
+        client = MongoClient(uri)
+        db_videos = client.videos
+        db_mp3s = client.mp3s
         logging.info("succeeded in connecting to mongoclient")
     except Exception as e:
         logging.error(f"An error occurred while connecting to MongoDB: {e}")
-    db_videos = client.videos
-    db_mp3s = client.mp3s
+    
     # gridfs
     fs_videos = gridfs.GridFS(db_videos)
     fs_mp3s = gridfs.GridFS(db_mp3s)
     # rabbitmq connection
     try:
-        connection = pika.BlockingConnection(pika.ConnectionParameters("rabbitmq"))
+        connection = pika.BlockingConnection(pika.ConnectionParameters(host = "rabbitmq"))
         channel = connection.channel()
         logging.info("succeeded in connecting to rabbitmq channel")
     except pika.exceptions.AMQPError as e:

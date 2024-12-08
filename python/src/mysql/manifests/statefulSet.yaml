@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: mysql
+  namespace: default
+spec:
+  serviceName: "mysql"
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      initContainers:
+        - name: check-storage
+          # This initContainer ensures that the volume is mounted and accessible
+          image: busybox:1.36
+          command:
+            [
+              "sh",
+              "-c",
+              "echo 'Checking PV...' && ls /var/lib/mysql && echo 'Done'",
+            ]
+          volumeMounts:
+            - name: mysql-data
+              mountPath: /var/lib/mysql
+      containers:
+        - name: mysql
+          image: mysql:8.0
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: mysql-root-password
+          ports:
+            - containerPort: 3306
+              name: mysql
+          volumeMounts:
+            - name: mysql-data
+              mountPath: /var/lib/mysql
+            - name: init-scripts
+              mountPath: /docker-entrypoint-initdb.d
+      volumes:
+        - name: init-scripts
+          configMap:
+            name: mysql-init-scripts
+  volumeClaimTemplates:
+    - metadata:
+        name: mysql-data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 10Gi
