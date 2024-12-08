@@ -119,7 +119,7 @@
       build the docker image and push it to dockerhub:
 
       ```ps
-      docker build ./python/src/converter -t <example_dockerhub_username>/converter:latest
+      docker build ./python/src/converter -t `<example_dockerhub_username>`/converter:latest
       docker push <example_dockerhub_username>/converter:latest
       ```
 
