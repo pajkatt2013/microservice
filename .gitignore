@@ -1,0 +1,43 @@
+# Ignore all secret files in subdirectories
+**/secrets.*
+
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+*.egg-info/
+
+# Test results
+*.coverage
+*.tox/
+.nox/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
