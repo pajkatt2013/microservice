@@ -42,7 +42,7 @@ jobs:
 
           if [ "$CLUSTER_STATUS" == "INACTIVE" ]; then
             echo "Cluster '${{ env.CLUSTER_NAME }}' is INACTIVE. Deleting it..."
-            aws ecs delete-cluster --cluster-name ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }}
+            aws ecs delete-cluster --cluster ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }}
           fi
 
           if [ "$CLUSTER_STATUS" == "MISSING" ] || [ "$CLUSTER_STATUS" == "None" ]; then
