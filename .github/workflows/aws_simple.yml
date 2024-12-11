@@ -51,3 +51,11 @@ jobs:
           else
             echo "Cluster '${{ env.CLUSTER_NAME }}' is ACTIVE."
           fi
+
+      # Step 8: Apply Kubernetes Manifests
+      - name: Apply Kubernetes Manifests
+        run: |
+          for SERVICE in ${{ env.SERVICES }}; do
+            echo "Applying manifests for service: $SERVICE"
+            kubectl apply -f ./python/src/$SERVICE/manifests/
+          done
