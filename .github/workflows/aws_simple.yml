@@ -37,22 +37,6 @@ jobs:
           aws ecs describe-clusters --clusters ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }} || \
           aws ecs create-cluster --cluster-name ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }}
 
-      # Step 4: Create ECR Repositories (If Not Exists)
-      - name: Create ECR Repositories
-        run: |
-          for SERVICE in ${{ env.SERVICES_WITH_DOCKERFILE }}; do
-            echo "Creating ECR Repositories: $SERVICE"
-
-            aws ecr describe-repositories --repository-names $SERVICE --region ${{ env.AWS_REGION }} || \
-            aws ecr create-repository --repository-name $SERVICE --region ${{ env.AWS_REGION }}
-          done
-
-      # Step 5: Log in to Amazon ECR
-      - name: Log in to Amazon ECR
-        run: |
-          aws ecr get-login-password --region ${{ env.AWS_REGION }} | \
-          docker login --username AWS --password-stdin ${{env.MY_AWS_ACCOUNT_ID}}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
-
       # Step 6: Replace Tokens in Manifests
       - uses: cschleiden/replace-tokens@v1
         with:
@@ -62,19 +46,6 @@ jobs:
         env:
           MAIL163_ADDRESS: ${{ secrets.MAIL163_ADDRESS }}
           MAIL163_PASSWORD: ${{ secrets.MAIL163_PASSWORD }}
-
-      # Step 7: Build and Push Docker Images for Each Microservice
-
-      - name: Build and push images
-
-        run: |
-          for SERVICE in ${{ env.SERVICES_WITH_DOCKERFILE }}; do
-            echo "Processing service: $SERVICE"
-
-            docker build -t $SERVICE ./python/src/$SERVICE
-            docker tag $SERVICE:${{ env.IMAGE_TAG }} ${{ env.MY_AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/$SERVICE:${{ env.IMAGE_TAG }}
-            docker push ${{ env.MY_AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/$SERVICE:${{ env.IMAGE_TAG }}
-          done
 
       # Step 8: Apply Kubernetes Manifests
       - name: Apply Kubernetes Manifests
