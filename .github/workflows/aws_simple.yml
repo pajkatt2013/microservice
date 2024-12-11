@@ -44,21 +44,3 @@ jobs:
           else
             echo "Cluster '${{ env.CLUSTER_NAME }}' already exists."
           fi
-
-      # Step 6: Replace Tokens in Manifests
-      - uses: cschleiden/replace-tokens@v1
-        with:
-          files: '["./python/src/notification/manifests/secret.yaml"]'
-          tokenPrefix: __ # optional, default is #{
-          tokenSuffix: __ # optional, default is }#
-        env:
-          MAIL163_ADDRESS: ${{ secrets.MAIL163_ADDRESS }}
-          MAIL163_PASSWORD: ${{ secrets.MAIL163_PASSWORD }}
-
-      # Step 8: Apply Kubernetes Manifests
-      - name: Apply Kubernetes Manifests
-        run: |
-          for SERVICE in ${{ env.SERVICES }}; do
-            echo "Applying manifests for service: $SERVICE"
-            kubectl apply -f ./python/src/$SERVICE/manifests/
-          done
