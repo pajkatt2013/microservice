@@ -38,9 +38,16 @@ jobs:
       - name: Create ECS Cluster
         run: |
           echo "Checking if ECS Cluster '${{ env.CLUSTER_NAME }}' exists..."
-          if ! aws ecs describe-clusters --clusters ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }}; then
-            echo "Cluster not found. Creating ECS Cluster '${{ env.CLUSTER_NAME }}'..."
-            aws ecs create-cluster --cluster-name ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }} || echo "Failed to create cluster"
+          CLUSTER_STATUS=$(aws ecs describe-clusters --clusters ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }} --query 'clusters[0].status' --output text)
+
+          if [ "$CLUSTER_STATUS" == "INACTIVE" ]; then
+            echo "Cluster '${{ env.CLUSTER_NAME }}' is INACTIVE. Deleting it..."
+            aws ecs delete-cluster --cluster-name ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }}
+          fi
+
+          if [ "$CLUSTER_STATUS" == "MISSING" ] || [ "$CLUSTER_STATUS" == "None" ]; then
+            echo "Cluster '${{ env.CLUSTER_NAME }}' does not exist. Creating it..."
+            aws ecs create-cluster --cluster-name ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }}
           else
-            echo "Cluster '${{ env.CLUSTER_NAME }}' already exists."
+            echo "Cluster '${{ env.CLUSTER_NAME }}' is ACTIVE."
           fi
