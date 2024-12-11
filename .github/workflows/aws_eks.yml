@@ -10,7 +10,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  CLUSTER_NAME: terry_ecs_cluster # Replace with your desired ECS cluster name
+  CLUSTER_NAME: terry_eks_cluster # Replace with your desired EKS cluster name
   SERVICES: auth converter gateway mysql mongodb notification rabbit
   SERVICES_WITH_DOCKERFILE: auth converter gateway notification
   MY_AWS_ACCOUNT_ID: 727389700154
@@ -34,17 +34,42 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}
 
-      # Step 3: Update kubeconfig for EKS
+      # Step 3: Check and Create EKS Cluster if Not Exists
+      - name: Check and Create EKS Cluster
+        run: |
+          CLUSTER_STATUS=$(aws eks describe-cluster --name ${{ env.CLUSTER_NAME }} --region ${{ env.AWS_REGION }} --query 'cluster.status' --output text || echo "MISSING")
+
+          if [ "$CLUSTER_STATUS" == "MISSING" ] || [ "$CLUSTER_STATUS" == "" ]; then
+            echo "Cluster '${{ env.CLUSTER_NAME }}' does not exist. Creating it..."
+            aws eks create-cluster \
+              --name ${{ env.CLUSTER_NAME }} \
+              --role-arn arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/eks-cluster-role \
+              --resources-vpc-config subnetIds=subnet-12345,securityGroupIds=sg-12345
+          else
+            echo "Cluster '${{ env.CLUSTER_NAME }}' already exists with status: $CLUSTER_STATUS."
+          fi
+
+      # Step 4: Update kubeconfig for EKS
       - name: Update kubeconfig for EKS
         run: |
           aws eks update-kubeconfig --region ${{ env.AWS_REGION }} --name ${{ env.CLUSTER_NAME }}
 
-      # Step 4: Ensure Kubernetes Connection
+      # Step 5: Ensure Kubernetes Connection
       - name: Verify Kubernetes Connection
         run: |
           kubectl get nodes
 
-      # Step 5: Apply Kubernetes Manifests
+      # Step 6: Replace Tokens in Manifests
+      - uses: cschleiden/replace-tokens@v1
+        with:
+          files: '["./python/src/notification/manifests/secret.yaml"]'
+          tokenPrefix: __ # optional, default is #{
+          tokenSuffix: __ # optional, default is }#
+        env:
+          MAIL163_ADDRESS: ${{ secrets.MAIL163_ADDRESS }}
+          MAIL163_PASSWORD: ${{ secrets.MAIL163_PASSWORD }}
+
+      # Step 7: Apply Kubernetes Manifests
       - name: Apply Kubernetes Manifests
         run: |
           for SERVICE in ${{ env.SERVICES }}; do
