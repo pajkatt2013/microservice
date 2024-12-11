@@ -1,0 +1,53 @@
+name: Deploy to Amazon EKS
+
+on:
+  push:
+    branches: [main]
+    paths: .github/workflows/aws_simple.yml
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  AWS_REGION: us-east-1
+  CLUSTER_NAME: terry_ecs_cluster # Replace with your desired ECS cluster name
+  SERVICES: auth converter gateway mysql mongodb notification rabbit
+  SERVICES_WITH_DOCKERFILE: auth converter gateway notification
+  MY_AWS_ACCOUNT_ID: 727389700154
+  IMAGE_TAG: ${{ github.run_number }}
+
+jobs:
+  deploy:
+    name: Setup and Deploy Microservices to EKS
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the Code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Configure AWS CLI
+      - name: Configure AWS CLI
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      # Step 3: Update kubeconfig for EKS
+      - name: Update kubeconfig for EKS
+        run: |
+          aws eks update-kubeconfig --region ${{ env.AWS_REGION }} --name ${{ env.CLUSTER_NAME }}
+
+      # Step 4: Ensure Kubernetes Connection
+      - name: Verify Kubernetes Connection
+        run: |
+          kubectl get nodes
+
+      # Step 5: Apply Kubernetes Manifests
+      - name: Apply Kubernetes Manifests
+        run: |
+          for SERVICE in ${{ env.SERVICES }}; do
+            echo "Applying manifests for service: $SERVICE"
+            kubectl apply -f ./python/src/$SERVICE/manifests/
+          done

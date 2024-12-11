@@ -1,11 +1,11 @@
 name: 1-actions-ci-cd-aks
 
 on:
-  push:
-    branches: [main]
-    paths: .github/workflows/deploy_k8s.yml
-  pull_request:
-    branches: none # [ main ]
+  # push:
+  #   branches: [main]
+  #   paths: .github/workflows/deploy_k8s.yml
+  # pull_request:
+  #   branches: none # [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
